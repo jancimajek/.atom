@@ -2,39 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/d-11835-41716-141fzhc.6vn5zjv2t9/package.tgz",
+        "raw": "/private/var/folders/gs/rxdcj6fd623fgfdy89l25b7c0000gp/T/d-118416-39193-4sxzfh.8ajjl6usor/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/d-11835-41716-141fzhc.6vn5zjv2t9/package.tgz",
-        "spec": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/d-11835-41716-141fzhc.6vn5zjv2t9/package.tgz",
+        "rawSpec": "/private/var/folders/gs/rxdcj6fd623fgfdy89l25b7c0000gp/T/d-118416-39193-4sxzfh.8ajjl6usor/package.tgz",
+        "spec": "/private/var/folders/gs/rxdcj6fd623fgfdy89l25b7c0000gp/T/d-118416-39193-4sxzfh.8ajjl6usor/package.tgz",
         "type": "local"
       },
-      "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/apm-install-dir-11835-41716-1hk15ik.e5ca49ggb9"
+      "/private/var/folders/gs/rxdcj6fd623fgfdy89l25b7c0000gp/T/apm-install-dir-118416-39193-pcsabc.37b1chm2t9"
     ]
   ],
-  "_from": "../d-11835-41716-141fzhc.6vn5zjv2t9/package.tgz",
-  "_id": "pinned-tabs@2.0.5",
+  "_from": "../d-118416-39193-4sxzfh.8ajjl6usor/package.tgz",
+  "_id": "pinned-tabs@2.0.6",
   "_inCache": true,
   "_location": "/pinned-tabs",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/d-11835-41716-141fzhc.6vn5zjv2t9/package.tgz",
+    "raw": "/private/var/folders/gs/rxdcj6fd623fgfdy89l25b7c0000gp/T/d-118416-39193-4sxzfh.8ajjl6usor/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/d-11835-41716-141fzhc.6vn5zjv2t9/package.tgz",
-    "spec": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/d-11835-41716-141fzhc.6vn5zjv2t9/package.tgz",
+    "rawSpec": "/private/var/folders/gs/rxdcj6fd623fgfdy89l25b7c0000gp/T/d-118416-39193-4sxzfh.8ajjl6usor/package.tgz",
+    "spec": "/private/var/folders/gs/rxdcj6fd623fgfdy89l25b7c0000gp/T/d-118416-39193-4sxzfh.8ajjl6usor/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-11835-41716-141fzhc.6vn5zjv2t9/package.tgz",
-  "_shasum": "7d8b7a8e2cc564408aee16757451ec0eb55209d5",
+  "_resolved": "file:../d-118416-39193-4sxzfh.8ajjl6usor/package.tgz",
+  "_shasum": "c9475d1d16fd1393a24091f9da761f38b4e88b81",
   "_shrinkwrap": null,
-  "_spec": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/d-11835-41716-141fzhc.6vn5zjv2t9/package.tgz",
-  "_where": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/apm-install-dir-11835-41716-1hk15ik.e5ca49ggb9",
+  "_spec": "/private/var/folders/gs/rxdcj6fd623fgfdy89l25b7c0000gp/T/d-118416-39193-4sxzfh.8ajjl6usor/package.tgz",
+  "_where": "/private/var/folders/gs/rxdcj6fd623fgfdy89l25b7c0000gp/T/apm-install-dir-118416-39193-pcsabc.37b1chm2t9",
   "atomTestRunner": "./spec/runner",
   "bugs": {
     "url": "https://github.com/ericcornelissen/pinned-tabs-for-atom/issues"
@@ -115,7 +115,7 @@
   "main": "./lib/pinned-tabs",
   "name": "pinned-tabs",
   "optionalDependencies": {},
-  "readme": "# Pinned tabs for Atom\nA simple package for the Atom text editor from GitHub that allows you to pin tabs. Inspired by the pin tab feature from Browsers, also supports Visual Studio style pinning.\n\nFor the best experience of this package, I recommend using it with the [file-icons](https://atom.io/packages/file-icons) package.\n\n![preview gif](http://i.imgur.com/zdzpBnd.gif)\n\n* * *\n\n## Usage\nThere are three ways to pin/unpin a tab using this package.\n- Via the context menu of a tab.\n- Via the keyboard shortcut <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>p</kbd>.\n- Via the command-palette, by typing `Pin Active`.\n\n* * *\n\n## Installation\nVia the Atom Package Manager (APM)\n```bash\n$ apm install pinned-tabs\n```\n\nOr via Git clone\n```bash\n$ cd ~/.atom/packages\n$ git clone https://github.com/ericcornelissen/pinned-tabs-for-atom --depth=1\n```\n\n* * *\n\n## Customization\nYou can add custom styles for pinned tabs. Use your [Stylesheet](https://flight-manual.atom.io/using-atom/sections/basic-customization/#style-tweaks) and target `.tab.pinned-tab` to tweak a pinned tab. You can consult the [package stylesheet](./styles/pinned-tabs.less) to see what classes are used.\n\nBelow are a few examples of ways to customize the styling of pinned tabs.\n\n#### Style the active pinned tab\n```css\n.tab.pinned-tab.active {\n  background-color: salmon;\n}\n\n/* Or all non active pinned tabs */\n.tab.pinned-tab:not(.active) {\n  background-color: olive;\n}\n```\n\n#### Choose your own icon for pinned tabs\n```css\n.tab.pinned-tab > .title::before {\n  content: '\\f135';\n  font-family: FontAwesome;\n  font-size: 18px;\n}\n```\n\nIf you're using file-icons, you can check out its [customization documentation](https://github.com/file-icons/atom#customisation) as well.\n\n#### Change the 'pinned' icon for Visual Studio mode\n```css\n.tab.pinned-tab > .close-icon::before {\n  content: '\\f276';\n  font-family: FontAwesome;\n  font-size: 12px;\n}\n```\n\n#### Style tabs that are not pinned\n```css\n.tab:not(.pinned-tab):not([data-type=\"TreeView\"]):not([data-type=\"PanelDock\"]):not([data-type=\"Object\"]) {\n  opacity: 0.5;\n}\n```\n\nWhere the different `:not([data-type])` exclude tabs elsewhere in Atom.\n\n* * *\n\nCopyright © Eric Cornelissen | MIT license\n",
+  "readme": "# Pinned tabs for Atom\n\n[![Build Status](https://travis-ci.org/ericcornelissen/pinned-tabs-for-atom.svg?branch=master)](https://travis-ci.org/ericcornelissen/pinned-tabs-for-atom)\n\nA simple package for the Atom text editor from GitHub that allows you to pin tabs. Inspired by the pin tab feature from Browsers, also supports Visual Studio style pinning.\n\nFor the best experience of this package, I recommend using it with the [file-icons](https://atom.io/packages/file-icons) package.\n\n![preview gif](http://i.imgur.com/zdzpBnd.gif)\n\n* * *\n\n## Usage\nThere are three ways to pin/unpin a tab using this package.\n- Via the context menu of a tab.\n- Via the keyboard shortcut <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>p</kbd>.\n- Via the command-palette, by typing `Pin Active`.\n\n* * *\n\n## Installation\nVia the Atom Package Manager (APM)\n```bash\n$ apm install pinned-tabs\n```\n\nOr via Git clone\n```bash\n$ cd ~/.atom/packages\n$ git clone https://github.com/ericcornelissen/pinned-tabs-for-atom --depth=1\n```\n\n* * *\n\n## Customization\nYou can add custom styles for pinned tabs. Use your [Stylesheet](https://flight-manual.atom.io/using-atom/sections/basic-customization/#style-tweaks) and target `.tab.pinned-tab` to tweak a pinned tab. You can consult the [package stylesheet](./styles/pinned-tabs.less) to see what classes are used.\n\nBelow are a few examples of ways to customize the styling of pinned tabs.\n\n#### Style the active pinned tab\n```css\n.tab.pinned-tab.active {\n  background-color: salmon;\n}\n\n/* Or all non active pinned tabs */\n.tab.pinned-tab:not(.active) {\n  background-color: olive;\n}\n```\n\n#### Choose your own icon for pinned tabs\n```css\n.tab.pinned-tab > .title::before {\n  content: '\\f135';\n  font-family: FontAwesome;\n  font-size: 18px;\n}\n```\n\nIf you're using file-icons, you can check out its [customization documentation](https://github.com/file-icons/atom#customisation) as well.\n\n#### Change the 'pinned' icon for Visual Studio mode\n```css\n.tab.pinned-tab > .close-icon::before {\n  content: '\\f276';\n  font-family: FontAwesome;\n  font-size: 12px;\n}\n```\n\n#### Style tabs that are not pinned\n```css\n.tab:not(.pinned-tab):not([data-type=\"TreeView\"]):not([data-type=\"PanelDock\"]):not([data-type=\"Object\"]) {\n  opacity: 0.5;\n}\n```\n\nWhere the different `:not([data-type])` exclude tabs elsewhere in Atom.\n\n* * *\n\nCopyright © Eric Cornelissen | MIT license\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
@@ -125,5 +125,5 @@
     "lint": "eslint lib/*.js",
     "test": "apm test"
   },
-  "version": "2.0.5"
+  "version": "2.0.6"
 }
