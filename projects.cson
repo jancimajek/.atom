@@ -1,0 +1,30 @@
+[
+  {
+    title: "React Sandbox"
+    group: "Personal"
+    paths: [
+      "/Users/jan.majek/Sites/react-sandbox"
+    ]
+    icon: "icon-bug"
+  }
+  {
+    title: "Lantern"
+    group: "FT Digital Newsroom"
+    paths: [
+      "/Users/jan.majek/Sites/lantern"
+      "/Users/jan.majek/Sites/lantern-api"
+    ]
+    icon: "icon-light-bulb"
+  }
+  {
+    title: "Tag Me"
+    group: "FT Digital Newsroom"
+    paths: [
+      "/Users/jan.majek/Sites/tag-me"
+      "/Users/jan.majek/Sites/tag-me-api"
+      "/Users/jan.majek/Sites/tag-me-infrastructure"
+      "/Users/jan.majek/Sites/tag-me-mdp"
+    ]
+    icon: "icon-tag"
+  }
+]

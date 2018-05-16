@@ -1,0 +1,57 @@
+"*":
+  "advanced-open-file":
+    createDirectories: true
+    createFileInstantly: true
+  "atom-beautify":
+    general:
+      _analyticsUserId: "159ae688-01ae-467f-872a-0da41b42d229"
+  "atom-easy-jsdoc":
+    useReturns: true
+  "atom-terminal-panel":
+    clearCommandInput: false
+  "autocomplete-paths":
+    enableHtmlSupport: true
+  core:
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "emmet"
+      "symbols-tree-view"
+    ]
+    telemetryConsent: "limited"
+  "cucumber-autocomplete":
+    path: "/test/nightwatch/features"
+  editor:
+    fontSize: 13
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "ee3d4f02-af22-429d-83b4-a8d580a96252"
+  "git-blame":
+    columnWidth: 275
+  "git-diff": {}
+  "git-diff-details":
+    enableSyntaxHighlighting: true
+  "language-dotenv":
+    dotenvFileNames: [
+      ".env.*"
+    ]
+  "linter-ui-default":
+    panelHeight: 349
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "minimap-git-diff": {}
+  "pinned-tabs":
+    closeUnpinned: true
+    visualstudio:
+      enable: true
+  "symbols-tree-view": {}
+  "tree-view":
+    focusOnReveal: false
+    squashDirectoryNames: true
+  "tree-view-git-status": {}
+  welcome:
+    showOnStartup: false

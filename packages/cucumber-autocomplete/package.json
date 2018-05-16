@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/d-11815-12932-1d5syrc.rvs1nhfr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/d-11815-12932-1d5syrc.rvs1nhfr/package.tgz",
+        "spec": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/d-11815-12932-1d5syrc.rvs1nhfr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/apm-install-dir-11815-12932-1y9056q.v7x0gm0a4i"
+    ]
+  ],
+  "_from": "../d-11815-12932-1d5syrc.rvs1nhfr/package.tgz",
+  "_id": "cucumber-autocomplete@0.7.2",
+  "_inCache": true,
+  "_location": "/cucumber-autocomplete",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/d-11815-12932-1d5syrc.rvs1nhfr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/d-11815-12932-1d5syrc.rvs1nhfr/package.tgz",
+    "spec": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/d-11815-12932-1d5syrc.rvs1nhfr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11815-12932-1d5syrc.rvs1nhfr/package.tgz",
+  "_shasum": "2a7c4a9052e8be900fe5274065c02c4b525a60df",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/d-11815-12932-1d5syrc.rvs1nhfr/package.tgz",
+  "_where": "/private/var/folders/x3/x49y87j95tq6kh9c72x3yrd9mgmj7s/T/apm-install-dir-11815-12932-1y9056q.v7x0gm0a4i",
+  "bugs": {
+    "url": "https://github.com/tomkadwill/atom-cucumber-autocomplete/issues"
+  },
+  "dependencies": {},
+  "description": "Autocompletes based on you defined cucumber steps",
+  "devDependencies": {
+    "request": "^2.53.0",
+    "temp": "^0.8.1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/tomkadwill/atom-cucumber-autocomplete#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "cucumber-autocomplete",
+  "optionalDependencies": {},
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "readme": "# Cucumber Autocomplete Atom Package\n\n[![Build Status](https://travis-ci.org/tomkadwill/atom-cucumber-autocomplete.svg?branch=master)](https://travis-ci.org/tomkadwill/atom-cucumber-autocomplete)\n\nScans your project for existing cucumber steps and provides suggestions as you type.\n\n![Cucumber Autocomplete Screenshot](https://raw.githubusercontent.com/tomkadwill/atom-cucumber-autocomplete/master/images/cucumber_autocomplete.jpg)\n\n#### FAQs\n* __When does it provide suggestions?__ Type a keyword (`And`, `Then`, `When`, `Given`) in a `.feature` file to trigger suggestions\n* __What does it scan?__ The package scans a directory of your choice, by default it scans the `/features` directory of your project. You override the default by changing the path option under settings.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomkadwill/atom-cucumber-autocomplete.git"
+  },
+  "scripts": {
+    "test": "apm test"
+  },
+  "version": "0.7.2"
+}
